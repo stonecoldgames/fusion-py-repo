@@ -26,5 +26,5 @@ Right now, we are working on a function that lists all of the online users in a 
             for member in server.members:
                 yield member
 ```
-it's not working as of right now, but i'll keep working
+it's not working as of right now, but i'll keep working.
 The End result of this project should be a bot that moderates a channel with humor and plays some music maybe? 
