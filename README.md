@@ -16,4 +16,14 @@ if message.content.startswith('!hello'):
         msg = 'Hello {0.author.mention}'.format(message)
         await client.send_message(message.channel, msg)
 ```
-
+Right now, we are working on a function that lists all of the online users in a channel.
+```python 
+  if message.content.startswith('!users'):
+        
+        for member in msg:
+            await client.send_message(message.channel, msg)
+        for server in client.servers:
+            for member in server.members:
+                yield member
+```
+it's not working as of right now, but i'll keep working
