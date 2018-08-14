@@ -9,7 +9,9 @@ Goal is to learn discord api and understand how to script a bot
 import discord
 ```
 this was quite a problem, as we had trouble just installing python, and updating various deprecated packages, and the discord api is a pain to set up. There is very little easily accessible documentation for this api, which has made it that much more of a challenge.
-
+i added JONESBOT to my discord server with the link
+https://discordapp.com/oauth2/authorize?client_id=XXXXXXXXXXXX&scope=bot
+where x is my client id
 devdungeon has some good starter scripts, such as one that allows you to greet the bot:
 ```python
 if message.content.startswith('!hello'):
