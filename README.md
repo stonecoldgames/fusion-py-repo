@@ -9,7 +9,7 @@ Goal is to learn discord api and understand how to script a bot
 import discord
 ```
 this was quite a problem, as we had trouble just installing python, and updating various deprecated packages, and the discord api is a pain to set up. There is very little easily accessible documentation for this api, which has made it that much more of a challenge.
-The End result of this project should be a bot that moderates a channel with humor and plays some music maybe? 
+
 devdungeon has some good starter scripts, such as one that allows you to greet the bot:
 ```python
 if message.content.startswith('!hello'):
@@ -27,3 +27,4 @@ Right now, we are working on a function that lists all of the online users in a 
                 yield member
 ```
 it's not working as of right now, but i'll keep working
+The End result of this project should be a bot that moderates a channel with humor and plays some music maybe? 
